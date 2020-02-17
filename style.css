@@ -1,0 +1,48 @@
+div.Face { 
+    width: 500px;
+    height: 500px;
+    background: beige;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+div.Nose {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    border-radius: 50%;
+}
+div.LOOG {
+    width: 40px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    border-radius: 50%;
+    transition: background 2s;
+}
+div.ROOG {
+    width: 40px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    border-radius: 50%;
+    transition: background 2s;
+}
+div.mond {
+    width: 200px;
+    height: 40px;
+    /* background: black; */
+    position: absolute;
+    border: 5px solid black;
+    border-width: 0 0 15px 0;
+    border-radius: 50%;
+    bottom: 120px;
+    left: 150px;
+}
